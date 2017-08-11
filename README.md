@@ -5,9 +5,8 @@
 // 随意写的简单示例，示例代码还可以优化！
 
 
-
-
-================================================================================================
+ViewController
+==================================================================================
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.moreStyleCellManager = [[MoreStyleCellManager alloc] initWithTableView:self.tableView viewController:self];
@@ -32,7 +31,7 @@
 }
 
 MoreStyleCellManager
-================================================================================================
+==================================================================================
 - (instancetype)initWithTableView:(UITableView *)tableView viewController:(UIViewController *)viewcontroller
 {
     self = [super init];
@@ -80,7 +79,7 @@ MoreStyleCellManager
 @end
 
 Helper
-================================================================================================
+==================================================================================
 - (NSInteger)numberOfRowsInSection:(NSInteger)section{
     return self.titleArr.count;
 }
