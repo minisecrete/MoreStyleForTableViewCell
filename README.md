@@ -1,8 +1,8 @@
 # MoreStyleForTableViewCell
 优点：代码清晰。
 缺点：文件偏多。
-// Controller中只需要一些简单的设置，代理在各个Helper中实现，更加便于查看、变更。
-// 随意写的简单示例，示例代码还可以优化！
+Controller中只需要一些简单的设置，代理在各个Helper中实现，更加便于查看、变更;
+随意写的简单示例，示例代码还可以优化;
 
 
 ViewController
